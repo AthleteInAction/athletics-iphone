@@ -1,0 +1,713 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ADD3FDF81BF93ABA0058BCFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD3FDF71BF93ABA0058BCFD /* AppDelegate.swift */; };
+		ADD3FDFD1BF93ABA0058BCFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADD3FDFB1BF93ABA0058BCFD /* Main.storyboard */; };
+		ADD3FE001BF93ABA0058BCFD /* Athletics_iPhone.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ADD3FDFE1BF93ABA0058BCFD /* Athletics_iPhone.xcdatamodeld */; };
+		ADD3FE021BF93ABB0058BCFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADD3FE011BF93ABB0058BCFD /* Assets.xcassets */; };
+		ADD3FE051BF93ABB0058BCFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADD3FE031BF93ABB0058BCFD /* LaunchScreen.storyboard */; };
+		ADD3FE101BF93ABB0058BCFD /* Athletics_iPhoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD3FE0F1BF93ABB0058BCFD /* Athletics_iPhoneTests.swift */; };
+		ADD3FE1B1BF93ABB0058BCFD /* Athletics_iPhoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD3FE1A1BF93ABB0058BCFD /* Athletics_iPhoneUITests.swift */; };
+		ADD3FE2A1BF93C360058BCFD /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD3FE291BF93C360058BCFD /* Globals.swift */; };
+		ADD3FE321BF93DC90058BCFD /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD3FE311BF93DC90058BCFD /* User.swift */; };
+		ADD3FE351BF93EA40058BCFD /* Access.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD3FE341BF93EA40058BCFD /* Access.swift */; };
+		ADD3FE381BF940590058BCFD /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD3FE371BF940590058BCFD /* Team.swift */; };
+		ADD3FE3C1BF97EDF0058BCFD /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD3FE3B1BF97EDF0058BCFD /* SWRevealViewController.m */; };
+		ADD3FE3F1BF9825B0058BCFD /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD3FE3E1BF9825B0058BCFD /* Home.swift */; };
+		ADD3FE431BF983190058BCFD /* Dailey.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD3FE411BF983190058BCFD /* Dailey.swift */; };
+		ADD3FE441BF983190058BCFD /* Dailey.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADD3FE421BF983190058BCFD /* Dailey.xib */; };
+		F99EADA92C48675EAAE64327 /* Pods_Athletics_iPhone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A66E15ECC41658ACB6FB851C /* Pods_Athletics_iPhone.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ADD3FE0C1BF93ABB0058BCFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADD3FDEC1BF93ABA0058BCFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADD3FDF31BF93ABA0058BCFD;
+			remoteInfo = "Athletics-iPhone";
+		};
+		ADD3FE171BF93ABB0058BCFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADD3FDEC1BF93ABA0058BCFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADD3FDF31BF93ABA0058BCFD;
+			remoteInfo = "Athletics-iPhone";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52D5ACFFAF239A315A4EFA5A /* Pods-Athletics-iPhone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Athletics-iPhone.release.xcconfig"; path = "Pods/Target Support Files/Pods-Athletics-iPhone/Pods-Athletics-iPhone.release.xcconfig"; sourceTree = "<group>"; };
+		694BD3F296452B601487F45C /* Pods-Athletics-iPhone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Athletics-iPhone.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Athletics-iPhone/Pods-Athletics-iPhone.debug.xcconfig"; sourceTree = "<group>"; };
+		A66E15ECC41658ACB6FB851C /* Pods_Athletics_iPhone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Athletics_iPhone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADD3FDF41BF93ABA0058BCFD /* Athletics-iPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Athletics-iPhone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADD3FDF71BF93ABA0058BCFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ADD3FDFC1BF93ABA0058BCFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ADD3FDFF1BF93ABA0058BCFD /* Athletics_iPhone.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Athletics_iPhone.xcdatamodel; sourceTree = "<group>"; };
+		ADD3FE011BF93ABB0058BCFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ADD3FE041BF93ABB0058BCFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ADD3FE061BF93ABB0058BCFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADD3FE0B1BF93ABB0058BCFD /* Athletics-iPhoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Athletics-iPhoneTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADD3FE0F1BF93ABB0058BCFD /* Athletics_iPhoneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Athletics_iPhoneTests.swift; sourceTree = "<group>"; };
+		ADD3FE111BF93ABB0058BCFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADD3FE161BF93ABB0058BCFD /* Athletics-iPhoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Athletics-iPhoneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADD3FE1A1BF93ABB0058BCFD /* Athletics_iPhoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Athletics_iPhoneUITests.swift; sourceTree = "<group>"; };
+		ADD3FE1C1BF93ABB0058BCFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADD3FE291BF93C360058BCFD /* Globals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
+		ADD3FE2C1BF93D580058BCFD /* Athletics-iPhone-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Athletics-iPhone-Bridging-Header.h"; sourceTree = "<group>"; };
+		ADD3FE311BF93DC90058BCFD /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		ADD3FE341BF93EA40058BCFD /* Access.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Access.swift; sourceTree = "<group>"; };
+		ADD3FE371BF940590058BCFD /* Team.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		ADD3FE3A1BF97EDF0058BCFD /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		ADD3FE3B1BF97EDF0058BCFD /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		ADD3FE3E1BF9825B0058BCFD /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		ADD3FE411BF983190058BCFD /* Dailey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dailey.swift; sourceTree = "<group>"; };
+		ADD3FE421BF983190058BCFD /* Dailey.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Dailey.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADD3FDF11BF93ABA0058BCFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F99EADA92C48675EAAE64327 /* Pods_Athletics_iPhone.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADD3FE081BF93ABB0058BCFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADD3FE131BF93ABB0058BCFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6FA0241ED4E22F5691D8B8DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A66E15ECC41658ACB6FB851C /* Pods_Athletics_iPhone.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7253DA5FAAACCCD32717CFBB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				694BD3F296452B601487F45C /* Pods-Athletics-iPhone.debug.xcconfig */,
+				52D5ACFFAF239A315A4EFA5A /* Pods-Athletics-iPhone.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ADD3FDEB1BF93ABA0058BCFD = {
+			isa = PBXGroup;
+			children = (
+				ADD3FDF61BF93ABA0058BCFD /* Athletics-iPhone */,
+				ADD3FE0E1BF93ABB0058BCFD /* Athletics-iPhoneTests */,
+				ADD3FE191BF93ABB0058BCFD /* Athletics-iPhoneUITests */,
+				ADD3FDF51BF93ABA0058BCFD /* Products */,
+				7253DA5FAAACCCD32717CFBB /* Pods */,
+				6FA0241ED4E22F5691D8B8DF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ADD3FDF51BF93ABA0058BCFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADD3FDF41BF93ABA0058BCFD /* Athletics-iPhone.app */,
+				ADD3FE0B1BF93ABB0058BCFD /* Athletics-iPhoneTests.xctest */,
+				ADD3FE161BF93ABB0058BCFD /* Athletics-iPhoneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADD3FDF61BF93ABA0058BCFD /* Athletics-iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				ADD3FE401BF982FF0058BCFD /* Dailey */,
+				ADD3FE3D1BF982380058BCFD /* Home */,
+				ADD3FE281BF93C2B0058BCFD /* Tools */,
+				ADD3FE2F1BF93DA20058BCFD /* DB */,
+				ADD3FDFB1BF93ABA0058BCFD /* Main.storyboard */,
+				ADD3FE031BF93ABB0058BCFD /* LaunchScreen.storyboard */,
+				ADD3FE2B1BF93D020058BCFD /* Supporting Files */,
+			);
+			path = "Athletics-iPhone";
+			sourceTree = "<group>";
+		};
+		ADD3FE0E1BF93ABB0058BCFD /* Athletics-iPhoneTests */ = {
+			isa = PBXGroup;
+			children = (
+				ADD3FE0F1BF93ABB0058BCFD /* Athletics_iPhoneTests.swift */,
+				ADD3FE111BF93ABB0058BCFD /* Info.plist */,
+			);
+			path = "Athletics-iPhoneTests";
+			sourceTree = "<group>";
+		};
+		ADD3FE191BF93ABB0058BCFD /* Athletics-iPhoneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ADD3FE1A1BF93ABB0058BCFD /* Athletics_iPhoneUITests.swift */,
+				ADD3FE1C1BF93ABB0058BCFD /* Info.plist */,
+			);
+			path = "Athletics-iPhoneUITests";
+			sourceTree = "<group>";
+		};
+		ADD3FE281BF93C2B0058BCFD /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				ADD3FE291BF93C360058BCFD /* Globals.swift */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		ADD3FE2B1BF93D020058BCFD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADD3FDF71BF93ABA0058BCFD /* AppDelegate.swift */,
+				ADD3FE011BF93ABB0058BCFD /* Assets.xcassets */,
+				ADD3FE061BF93ABB0058BCFD /* Info.plist */,
+				ADD3FDFE1BF93ABA0058BCFD /* Athletics_iPhone.xcdatamodeld */,
+				ADD3FE2C1BF93D580058BCFD /* Athletics-iPhone-Bridging-Header.h */,
+				ADD3FE391BF97EB90058BCFD /* SWReveal */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ADD3FE2F1BF93DA20058BCFD /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				ADD3FE361BF940480058BCFD /* Team */,
+				ADD3FE331BF93E8B0058BCFD /* Access */,
+				ADD3FE301BF93DBC0058BCFD /* User */,
+			);
+			name = DB;
+			sourceTree = "<group>";
+		};
+		ADD3FE301BF93DBC0058BCFD /* User */ = {
+			isa = PBXGroup;
+			children = (
+				ADD3FE311BF93DC90058BCFD /* User.swift */,
+			);
+			name = User;
+			sourceTree = "<group>";
+		};
+		ADD3FE331BF93E8B0058BCFD /* Access */ = {
+			isa = PBXGroup;
+			children = (
+				ADD3FE341BF93EA40058BCFD /* Access.swift */,
+			);
+			name = Access;
+			sourceTree = "<group>";
+		};
+		ADD3FE361BF940480058BCFD /* Team */ = {
+			isa = PBXGroup;
+			children = (
+				ADD3FE371BF940590058BCFD /* Team.swift */,
+			);
+			name = Team;
+			sourceTree = "<group>";
+		};
+		ADD3FE391BF97EB90058BCFD /* SWReveal */ = {
+			isa = PBXGroup;
+			children = (
+				ADD3FE3A1BF97EDF0058BCFD /* SWRevealViewController.h */,
+				ADD3FE3B1BF97EDF0058BCFD /* SWRevealViewController.m */,
+			);
+			name = SWReveal;
+			sourceTree = "<group>";
+		};
+		ADD3FE3D1BF982380058BCFD /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				ADD3FE3E1BF9825B0058BCFD /* Home.swift */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		ADD3FE401BF982FF0058BCFD /* Dailey */ = {
+			isa = PBXGroup;
+			children = (
+				ADD3FE411BF983190058BCFD /* Dailey.swift */,
+				ADD3FE421BF983190058BCFD /* Dailey.xib */,
+			);
+			name = Dailey;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADD3FDF31BF93ABA0058BCFD /* Athletics-iPhone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADD3FE1F1BF93ABB0058BCFD /* Build configuration list for PBXNativeTarget "Athletics-iPhone" */;
+			buildPhases = (
+				FE36D97428C88F3BAA37CF91 /* Check Pods Manifest.lock */,
+				ADD3FDF01BF93ABA0058BCFD /* Sources */,
+				ADD3FDF11BF93ABA0058BCFD /* Frameworks */,
+				ADD3FDF21BF93ABA0058BCFD /* Resources */,
+				14AB229338BF65EA202F3A3D /* Embed Pods Frameworks */,
+				436F2E7B73E70B90ACF1A303 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Athletics-iPhone";
+			productName = "Athletics-iPhone";
+			productReference = ADD3FDF41BF93ABA0058BCFD /* Athletics-iPhone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ADD3FE0A1BF93ABB0058BCFD /* Athletics-iPhoneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADD3FE221BF93ABB0058BCFD /* Build configuration list for PBXNativeTarget "Athletics-iPhoneTests" */;
+			buildPhases = (
+				ADD3FE071BF93ABB0058BCFD /* Sources */,
+				ADD3FE081BF93ABB0058BCFD /* Frameworks */,
+				ADD3FE091BF93ABB0058BCFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADD3FE0D1BF93ABB0058BCFD /* PBXTargetDependency */,
+			);
+			name = "Athletics-iPhoneTests";
+			productName = "Athletics-iPhoneTests";
+			productReference = ADD3FE0B1BF93ABB0058BCFD /* Athletics-iPhoneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ADD3FE151BF93ABB0058BCFD /* Athletics-iPhoneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADD3FE251BF93ABB0058BCFD /* Build configuration list for PBXNativeTarget "Athletics-iPhoneUITests" */;
+			buildPhases = (
+				ADD3FE121BF93ABB0058BCFD /* Sources */,
+				ADD3FE131BF93ABB0058BCFD /* Frameworks */,
+				ADD3FE141BF93ABB0058BCFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADD3FE181BF93ABB0058BCFD /* PBXTargetDependency */,
+			);
+			name = "Athletics-iPhoneUITests";
+			productName = "Athletics-iPhoneUITests";
+			productReference = ADD3FE161BF93ABB0058BCFD /* Athletics-iPhoneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADD3FDEC1BF93ABA0058BCFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Wambl;
+				TargetAttributes = {
+					ADD3FDF31BF93ABA0058BCFD = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					ADD3FE0A1BF93ABB0058BCFD = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = ADD3FDF31BF93ABA0058BCFD;
+					};
+					ADD3FE151BF93ABB0058BCFD = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = ADD3FDF31BF93ABA0058BCFD;
+					};
+				};
+			};
+			buildConfigurationList = ADD3FDEF1BF93ABA0058BCFD /* Build configuration list for PBXProject "Athletics-iPhone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADD3FDEB1BF93ABA0058BCFD;
+			productRefGroup = ADD3FDF51BF93ABA0058BCFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADD3FDF31BF93ABA0058BCFD /* Athletics-iPhone */,
+				ADD3FE0A1BF93ABB0058BCFD /* Athletics-iPhoneTests */,
+				ADD3FE151BF93ABB0058BCFD /* Athletics-iPhoneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADD3FDF21BF93ABA0058BCFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADD3FE051BF93ABB0058BCFD /* LaunchScreen.storyboard in Resources */,
+				ADD3FE021BF93ABB0058BCFD /* Assets.xcassets in Resources */,
+				ADD3FDFD1BF93ABA0058BCFD /* Main.storyboard in Resources */,
+				ADD3FE441BF983190058BCFD /* Dailey.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADD3FE091BF93ABB0058BCFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADD3FE141BF93ABB0058BCFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14AB229338BF65EA202F3A3D /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Athletics-iPhone/Pods-Athletics-iPhone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		436F2E7B73E70B90ACF1A303 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Athletics-iPhone/Pods-Athletics-iPhone-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE36D97428C88F3BAA37CF91 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADD3FDF01BF93ABA0058BCFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADD3FE431BF983190058BCFD /* Dailey.swift in Sources */,
+				ADD3FE3C1BF97EDF0058BCFD /* SWRevealViewController.m in Sources */,
+				ADD3FE381BF940590058BCFD /* Team.swift in Sources */,
+				ADD3FE321BF93DC90058BCFD /* User.swift in Sources */,
+				ADD3FE2A1BF93C360058BCFD /* Globals.swift in Sources */,
+				ADD3FDF81BF93ABA0058BCFD /* AppDelegate.swift in Sources */,
+				ADD3FE351BF93EA40058BCFD /* Access.swift in Sources */,
+				ADD3FE3F1BF9825B0058BCFD /* Home.swift in Sources */,
+				ADD3FE001BF93ABA0058BCFD /* Athletics_iPhone.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADD3FE071BF93ABB0058BCFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADD3FE101BF93ABB0058BCFD /* Athletics_iPhoneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADD3FE121BF93ABB0058BCFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADD3FE1B1BF93ABB0058BCFD /* Athletics_iPhoneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ADD3FE0D1BF93ABB0058BCFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADD3FDF31BF93ABA0058BCFD /* Athletics-iPhone */;
+			targetProxy = ADD3FE0C1BF93ABB0058BCFD /* PBXContainerItemProxy */;
+		};
+		ADD3FE181BF93ABB0058BCFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADD3FDF31BF93ABA0058BCFD /* Athletics-iPhone */;
+			targetProxy = ADD3FE171BF93ABB0058BCFD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ADD3FDFB1BF93ABA0058BCFD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADD3FDFC1BF93ABA0058BCFD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ADD3FE031BF93ABB0058BCFD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADD3FE041BF93ABB0058BCFD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADD3FE1D1BF93ABB0058BCFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ADD3FE1E1BF93ABB0058BCFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADD3FE201BF93ABB0058BCFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 694BD3F296452B601487F45C /* Pods-Athletics-iPhone.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "Athletics-iPhone/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wambl.Athletics-iPhone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Athletics-iPhone/Athletics-iPhone-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ADD3FE211BF93ABB0058BCFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52D5ACFFAF239A315A4EFA5A /* Pods-Athletics-iPhone.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "Athletics-iPhone/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wambl.Athletics-iPhone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Athletics-iPhone/Athletics-iPhone-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		ADD3FE231BF93ABB0058BCFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Athletics-iPhoneTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wambl.Athletics-iPhoneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Athletics-iPhone.app/Athletics-iPhone";
+			};
+			name = Debug;
+		};
+		ADD3FE241BF93ABB0058BCFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Athletics-iPhoneTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wambl.Athletics-iPhoneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Athletics-iPhone.app/Athletics-iPhone";
+			};
+			name = Release;
+		};
+		ADD3FE261BF93ABB0058BCFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Athletics-iPhoneUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wambl.Athletics-iPhoneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Athletics-iPhone";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		ADD3FE271BF93ABB0058BCFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Athletics-iPhoneUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wambl.Athletics-iPhoneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Athletics-iPhone";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADD3FDEF1BF93ABA0058BCFD /* Build configuration list for PBXProject "Athletics-iPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADD3FE1D1BF93ABB0058BCFD /* Debug */,
+				ADD3FE1E1BF93ABB0058BCFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADD3FE1F1BF93ABB0058BCFD /* Build configuration list for PBXNativeTarget "Athletics-iPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADD3FE201BF93ABB0058BCFD /* Debug */,
+				ADD3FE211BF93ABB0058BCFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADD3FE221BF93ABB0058BCFD /* Build configuration list for PBXNativeTarget "Athletics-iPhoneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADD3FE231BF93ABB0058BCFD /* Debug */,
+				ADD3FE241BF93ABB0058BCFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADD3FE251BF93ABB0058BCFD /* Build configuration list for PBXNativeTarget "Athletics-iPhoneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADD3FE261BF93ABB0058BCFD /* Debug */,
+				ADD3FE271BF93ABB0058BCFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ADD3FDFE1BF93ABA0058BCFD /* Athletics_iPhone.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ADD3FDFF1BF93ABA0058BCFD /* Athletics_iPhone.xcdatamodel */,
+			);
+			currentVersion = ADD3FDFF1BF93ABA0058BCFD /* Athletics_iPhone.xcdatamodel */;
+			path = Athletics_iPhone.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = ADD3FDEC1BF93ABA0058BCFD /* Project object */;
+}
